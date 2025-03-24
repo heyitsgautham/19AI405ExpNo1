@@ -2,11 +2,11 @@
 <h3>Name: GAUTHAM KRISHNA S
 <h3>Register Number: 212223240036
 <h3>AIM:</h3>
-<br>
+
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
-<br>
-<h3>Theory</h3>
-<h3>Medicine prescribing agent:</h3>
+
+<h3>THEORY:</h3>
+<h4>Medicine prescribing agent:</h4>
 <p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
 <hr>
 <h3>PEAS DESCRIPTION:</h3>
@@ -27,7 +27,7 @@
   </tr>
 </table>
 <hr>
-<H3>DESIGN STEPS</H3>
+<H3>DESIGN STEPS:</H3>
 <h3>STEP 1:Identifying the input:</h3>
 <p>Temperature from patients, Location.</p>
 <h3>STEP 2:Identifying the output:</h3>
@@ -283,8 +283,8 @@ if name == "main":
     print(agent.performance)
 ~~~
 
-# OUTPUT 
+# OUTPUT:
 ![image](https://github.com/21005984/19AI405ExpNo1/assets/94748389/0d567d50-84f6-41d4-9dfe-ac72c9b33122)
 
-# RESULT :
+# RESULT:
 Thus, an AI agent is developed.
